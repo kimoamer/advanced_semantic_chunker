@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "advanced-semantic-chunker"
@@ -9,7 +9,7 @@ description = "Powerful bilingual (EN/AR) semantic document chunking engine for 
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
-dependencies = ["numpy>=1.24.0"]
+dependencies = ["numpy>=1.24.0", "nltk>=3.8.0"]
 
 [project.optional-dependencies]
 sentence-transformers = ["sentence-transformers>=2.2.0"]

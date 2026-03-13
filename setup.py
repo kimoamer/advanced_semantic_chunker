@@ -11,6 +11,7 @@ setup(
     packages=find_packages(exclude=["tests*", "examples*", "docs*"]),
     install_requires=[
         "numpy>=1.24.0",
+        "nltk>=3.8.0",
     ],
     extras_require={
         "sentence-transformers": ["sentence-transformers>=2.2.0"],
