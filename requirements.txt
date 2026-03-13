@@ -1,0 +1,18 @@
+# Core dependencies
+numpy>=1.24.0
+
+# Embedding providers (install at least one)
+sentence-transformers>=2.2.0     # Default embedding backend (BGE-M3, multilingual-e5, etc.)
+# openai>=1.0.0                  # Uncomment for OpenAI embeddings / agentic strategy
+
+# NLP processors (optional but recommended)
+nltk>=3.8.0                      # English sentence segmentation
+# spacy>=3.6.0                   # Higher-accuracy English segmentation
+# stanza>=1.6.0                  # Arabic sentence segmentation (83.56% accuracy)
+# camel-tools>=1.5.0             # Arabic morphological analysis (best Arabic NLP toolkit)
+
+# Document formats
+python-docx>=1.0.0               # .docx file reading support
+
+# Utilities
+tiktoken>=0.5.0                  # Accurate token counting (optional)
