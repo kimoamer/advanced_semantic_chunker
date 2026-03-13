@@ -316,11 +316,11 @@ MIT License - see [LICENSE](LICENSE) for details.
 If you use this library in your research, please cite:
 
 ```bibtex
-@software{semantic_chunker,
-  title = {Semantic Chunker: Production-Ready Document Chunking for RAG},
+@software{advanced_semantic_chunker,
+  title = {Advanced Semantic Chunker: Production-Ready Document Chunking for RAG},
   author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/semantic-chunker}
+  year = {2026},
+  url = {https://github.com/yourusername/advanced-semantic-chunker}
 }
 ```
 
